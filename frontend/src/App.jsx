@@ -14,6 +14,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/cupcakes" element={<CupcakeList />} />
           <Route path="/instructions" element={<Instructions />} />
+          {/* <Route path="/cupcake/:id" element={<cupcakeDetailsPage/>} /> */}
         </Routes>
       </main>
       <NavBar />
